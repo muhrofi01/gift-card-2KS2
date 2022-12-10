@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.garis::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 21%;
+  background-color: #192b39;
+  transform: translate(-60%);
+  width: 1rem;
+}
+.garis-kiri::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  background-color: #192b39;
+  transform: translate(-50%);
+  width: 1rem;
+}
